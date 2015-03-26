@@ -326,3 +326,14 @@ a.jp-unmute {
 }
 .jp-full-screen{ display:none !important; }
 .jp-restore-screen{ display:block !important; }
+
+
+.link-github{
+	position: absolute;
+	top: -20px;
+	display: block;
+	right: 0px;
+	color: #fff;
+	text-decoration: none;
+	font-size: 14px;
+}
