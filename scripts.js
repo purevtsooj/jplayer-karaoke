@@ -8,8 +8,8 @@
                 var $this = $(this);
                 $this.jPlayer("setMedia", {
                     title: "Цасан бороо",
-                    mp3: "http://localhost/karaoke/github/jplayer-karaoke/media/gatsuurhan.mp3",
-                    poster: "http://localhost/karaoke/github/jplayer-karaoke/jplayer/viewport.jpg"
+                    mp3: "http://purevtsooj.github.io/jplayer-karaoke/media/gatsuurhan.mp3",
+                    poster: "http://purevtsooj.github.io/jplayer-karaoke/jplayer/viewport.jpg"
                 });
                 $this.append($('<div id="karaoke_lyrics" data-index="-1"><span class="word">jPlayer, HTML, CSS3 Karaoke</span></div>'));
 
@@ -41,7 +41,7 @@
                     }, 3000);
                 });
             },
-            lyrics: "http://localhost/karaoke/github/jplayer-karaoke/media/gatsuurhan.xml",
+            lyrics: "http://purevtsooj.github.io/jplayer-karaoke/media/gatsuurhan.xml",
             swfPath: "jplayer/",
             supplied: "mp3",
             size: {
