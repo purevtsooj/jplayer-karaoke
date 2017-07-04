@@ -79,11 +79,11 @@
                                 var $text = $('<span class="word"></span>').text( $(this).text() ).append($layer);
                                 var duration = parseInt($(this).attr('duration'))/1000;
                                 $text.css({
-                                    '-webkit-animation-duration': duration+"s",
-                                    '-moz-animation-duration': duration+"s",
-                                    '-ms-animation-duration': duration+"s",
-                                    '-o-animation-duration': duration+"s",
-                                    'animation-duration': duration+"s"
+                                    '-webkit-transition-duration': duration+"s",
+                                    '-moz-transition-duration': duration+"s",
+                                    '-ms-transition-duration': duration+"s",
+                                    '-o-transition-duration': duration+"s",
+                                    'transition-duration': duration+"s"
                                 });
                                 setTimeout(function(){$text.addClass('animate');}, sumDuration);
                                 sumDuration += duration*1000;

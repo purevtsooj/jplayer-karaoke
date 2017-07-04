@@ -312,14 +312,16 @@ a.jp-unmute {
 #karaoke_lyrics .word span{
     position: absolute;
     overflow: hidden;
+    display: block;
     top: 0px;
     left: 0px;
     width: 0%;
+    line-height: 1.25em;
     color: #FFCC00;
-    -webkit-transition-property: width;
-    -webkit-transition-timing-function: linear;
-    -webkit-transition-duration: 0.5s;
-    -webkit-transition-delay: 0;
+    z-index: 100;
+    -webkit-transition: width 0.5s linear;
+       -moz-transition: width 0.5s linear;
+    		transition: width 0.5s linear;
 }
 #karaoke_lyrics .word.animate span{
     width: 100%;
