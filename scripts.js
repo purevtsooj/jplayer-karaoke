@@ -7,6 +7,7 @@
             ready: function (event) {
                 var self = this;
                 var $this = $(this);
+                
                 $this.jPlayer("setMedia", {
                     title: "Гацуурхан",
                     mp3: "media/gatsuurhan.mp3",
